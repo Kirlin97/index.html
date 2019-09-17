@@ -1,89 +1,101 @@
-<!-- BEGIN -->
-<!DOCTYPE html>
 <html>
+<head>
+	<title>Внедрение crm Битрикс 24 в Новосибирске. Пакетное внедрение, интеграция Битрикс24 CRM.</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width" id="viewport">
+	<meta name="description" content="Комплексное внедрение CRM Битрикс24. Настройка и интеграция Битрикс24 с IP-телефонией, настройка и интеграция электронной почты, интеграция с соц. сетями и мессенджерами. Оптимизация воронок продаж. " />
+	<meta name="keywords" content="интеграция битрикс24, внедрение битрикс24, настроить битрикс24, настроить bitrix24, интеграция bitrix24, внедрение bitrix24" />
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Резюме Алексей Примадонин</title>
-  </head>
+	<link rel="stylesheet" href="node_modules/animate.css/animate.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slick.css">
 
-  <body>
-    <div id="header">
-      <h1>Алексей Примадонин</h1>
-      <h3>Веб-разработчик</h3>
-      <p>
-        <a href="mailto:ap@somemail.com">ap@somemail.com</a>,
-        <a href="https://github.com/alprima">github.com/alprima</a>
-      </p>
-    </div>
-
-    <div id="main">
-      <p>
-        Я увлекаюсь веб-дизайном со старших классов школы. Начал с мини-сайтов для себя и друзей, потом для местных фирм и организаций. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS (ES6), люблю функциональное программирование. Умею работать с SQL, HTTP, Git и Ansible. Пишу тесты.
-      </p>
-
-      <p>
-        Готов к удаленной работе и релокации.
-      </p>
-
-      <div class="main_section">
-        <h2>Опыт работы</h2>
-
-        <div class="main_section_item">
-          <h3>Майкрософт Россия</h3>
-          <p>Программист (стажировка), <i>апрель 2016 — ноябрь 2016</i></p>
-          <ul>
-            <li>Работа в команде на C#</li>
-            <li>Создание веб-сайта проекта JDX</li>
-          </ul>
-        </div>
-
-        <div class="main_section_item">
-          <h3>TOO «Винная Баня»</h3>
-          <p>Веб-дизайн, <i>январь 2015 — апрель 2016</i></p>
-          <ul>
-            <li>Верстка макетов</li>
-            <li>Разработка тем для Wordpress</li>
-            <li>Поддержка сайта</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="main_section">
-        <h2>Образование</h2>
-
-        <div class="main_section_item">
-          <h3>Университет им. Патриса Лумумбы</h3>
-          <p>Бакалавр информационных систем, <i>2012 —  2016</i></p>
-        </div>
-
-        <div class="main_section_item">
-          <h3>Хекслет</h3>
-          <p>Курсы по программированию, JS Backend/Frontend, <i>2015 — 2017</i></p>
-        </div>
-      </div>
-
-      <div class="main_section">
-        <h2>Другие навыки и увлечения</h2>
-
-        <div class="main_section_item">
-          <ul>
-            <li>Основы дизайна и типографики</li>
-            <li>Любительская игра на гитаре</li>
-            <li>Хоккей на траве (городская лига)</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-    <div id="footer">
-      <strong>Алексей Примадонин</strong>
-      <br/>
-      ул. Полевая, 12, Астрахань, Россия +7 888 127 00 01, <a href="mailto:ap@somemail.com">ap@somemail.com</a>
-    </div>
-
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="node_modules/jquery-validation/dist/localization/messages_ru.js"></script>
+	<script src="node_modules/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+	<script src="js/common.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js?render=explicit' async defer></script>
+  
+</head>
+<body>
+	<header class="header">
+		<div class="wrap">
+			<div class="logo">
+				<a href="index">
+					<img src="img/logo.jpg">
+				</a>
+			</div>
+			<nav class="top-menu">
+				<ul>
+					<li style ="width: 100px;"><a class="smoothscroll" href="work">Услуги</a></li>
+					<li style ="width: 130px;"><a class="smoothscroll" href="crmsystem">CRM-системы</a></li>
+					<li style ="width: 120px;"><a class="smoothscroll" href="vidjet">Интеграции</a></li>
+					<li style ="width: 110px;"><a class="smoothscroll" href="ipphone">Телефония</a></li>
+					       <li style ="width: 110px;"><a class="smoothscroll" href="callcentr">Блог</a>
+                    <ul class="submenu">
+                        <li style ="width: 130px;"><a class="smoothscroll" href="mail-integration">Интеграция с Mailchimp</a>
+                        <li style ="width: 130px;"><a class="smoothscroll" href="vk-integration">Интеграция с Вконтакте</a>
+                        <li style ="width: 130px;"><a class="smoothscroll" href="phone-integration">Интеграция с телефонией</a>
+                        <li style ="width: 130px;"><a class="smoothscroll" href="telegram-integration">Интеграция с Telegram</a>
+                        <li style ="width: 130px;"><a class="smoothscroll" href="chat-integration">Интеграция с чатами</a>
+                    </ul>
+                    </li>
+					<li style ="width: 110px;"><a class="smoothscroll" href="callcentr">Call-центр</a></li>
+                               		</ul>
+			</nav>
+			<div class="phones">
+				<a>8 (800) 775 15 31 <img src="img/phone.png"></a><br/>
+				<a>8 (383) 362 26 26 <img src="img/phone.png"></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</header>
+    	<section class="middle-form">
+		<div class="wrap">
+			<div class="top-text">
+				Настройте CRM-систему УЖЕ ЧЕРЕЗ 10 ДНЕЙ <br><span>или мы вернем деньги!</span>
+				<div></div>
+			</div>
+			<form action="submit.php" method="post" onsubmit="return checkform(this);">
+				<input class="req" type="text" name="name" placeholder="Ваше имя" required>
+				<input class="phone_mask req" type="tel" name="phone" placeholder="Ваш телефон" required>
+				<input class="req" type="email" name="email" placeholder="Ваш e-mail">
+				<div class="privacy-policy"><label><input type="checkbox">Я подтверждаю свое согласие с <a href="/Политика безопастности.pdf" target="_blank">политикой конфиденциальности</a></label></div>
+				<div class="button">
+					<button class="ripplelink g-recaptcha" id='recaptcha-1' type="submit" onclick="ga('send', 'event', 'order', 'main', 'call');yaCounter39543475.reachGoal('ordemaincall');">Оставить заявку</button>
+					<span class="ink inanimate" style="height: 209px; width: 209px; top: 20px; left: -44px;"></span>
+				</div>
+				<div class="success">Ваша заявка успешно принята!</div>
+			</form>
+		</div>
+	</section>
+ <section id="advantages" class="posts-list1">
+		<div class="wrap">
+			<div class="zag"><h1>Внедрение и интеграция CRM Битрикс24</h1></div><br>
+<div class="list">
+				<div class="item">
+					<div class="img_wrapper">
+						<div align="center">
+<img src="img/voronkab24.jpg" width="300px" tabindex="0"/>
+                          <a class="close"></a>
+</div>
+					</div> </div>
+					<div class="p1"><b>Битрикс24 - лидогенерирующая CRM<br> для отделов продаж</b></div>
+					<br>
+					<div class="p2"><p>CRM Битрикс24, в своем роде единственная система, которая предусматривает 2-х уровневую работу с клиентами. Кроме стандартной воронки продаж "Сделки", в CRM предусмотрена лидогенерирующая воронка "ЛИДЫ". С помощью такого распределения, Битрикс24 позаботились о том, что до момента создания сделок, была возможность отфильтровать заявки со всех рекламных источников: заявки с сайта, чаты, входящие звонки, входящие письма от новых клиентов.</p> <br>
+                      <p>Возможность использования лидогенерирующей воронки позволяет подключать большое количество сервисов, обеспечивающих приток клиентов. Автоматическое проставление "источников", позволяет использовать аналитику по новым клиентам, без смешивания с уже действующими.</p>
+                      
+                
+      	</div>
+  <br>
+				</div>
+			</div>
+				<div class="clear"></div>
+</section>
   </body>
 </html>
-<!-- END -->
